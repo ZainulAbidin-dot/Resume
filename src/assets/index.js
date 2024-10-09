@@ -67,7 +67,7 @@ export {
   typescript,
   threejs,
   wordpress,
-  nextjs
+  nextjs,
   meta,
   shopify,
   starbucks,
