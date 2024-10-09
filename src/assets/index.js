@@ -22,6 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import expressjs from "./tech/expressjs.png";
 import selenium from "./tech/selenium.png";
+import wordpress from "./tech/wordpress";
+import nextjs from "./tech/nextjs";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,6 +32,8 @@ import tesla from "./company/tesla.png";
 import pumpjack from "./company/pumpjack.png";
 import fast from "./company/fast.png";
 import weuno from "./company/weuno.jpg";
+import pirayo from "./company/pirayo.png";
+import saudi_controls from "./company/saudi_controls.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -62,6 +66,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  wordpress,
+  nextjs
   meta,
   shopify,
   starbucks,
@@ -69,6 +75,8 @@ export {
   pumpjack,
   fast,
   weuno,
+  pirayo,
+  saudi_controls,
   carrent,
   jobit,
   tripguide,
