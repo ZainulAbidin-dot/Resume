@@ -22,8 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import expressjs from "./tech/expressjs.png";
 import selenium from "./tech/selenium.png";
-import wordpress from "./tech/wordpress";
-import nextjs from "./tech/nextjs";
+import wordpress from "./tech/wordpress.jpeg";
+import nextjs from "./tech/nextjs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
