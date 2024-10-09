@@ -15,6 +15,7 @@ import {
 	git,
 	figma,
 	docker,
+	nextjs,
 	meta,
 	starbucks,
 	tesla,
@@ -25,9 +26,12 @@ import {
 	threejs,
 	expressjs,
 	selenium,
+	wordpress,
 	pumpjack,
 	fast,
 	weuno,
+	pirayo,
+	saudi_controls,
 	smartdoc,
 	cardiology,
 	planapp,
@@ -62,7 +66,7 @@ const services = [
 		icon: backend,
 	},
 	{
-		title: "Software Tester",
+		title: "Wordpress Developer",
 		icon: creator,
 	},
 ];
@@ -105,20 +109,24 @@ const technologies = [
 		icon: mongodb,
 	},
 	{
-		name: "Selenium",
-		icon: selenium,
+		name: "Wordpress",
+		icon: wordpress,
 	},
 	{
-		name: "git",
+		name: "Git",
 		icon: git,
 	},
 	{
-		name: "figma",
+		name: "Figma",
 		icon: figma,
 	},
 	{
-		name: "docker",
+		name: "Docker",
 		icon: docker,
+	},
+	{
+		name: "Nextjs",
+		icon: nextjs,
 	},
 ];
 
@@ -168,6 +176,29 @@ const experiences = [
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create intricate business logic.",
 			"Assumed the role of developing robust and scalable applications through the utilization of frameworks such as Express JS and Adonis JS.",
 			"Participating in code reviews and providing constructive feedback to other developers.",
+		],
+	},
+	{
+		title: "Full-Stack Developer",
+		company_name: "Pirayo",
+		icon: pirayo,
+		iconBg: "#E6DEDD",
+		date: "July 2023 - March 2024",
+		points: [
+			"Assumed the role of developing applications through the utilization of frameworks such as Express JS and Fastify JS, contributing to the successful launch of their product.",
+			"Exploring emerging technologies and methodologies to optimize the development process and ensure the delivery of high-quality, production-ready builds."
+		],
+	},
+	{
+		title: "System Integration Engineer",
+		company_name: "Saudi Controls",
+		icon: saudi_controls,
+		iconBg: "#E6DEDD",
+		date: "March 2024 - Present",
+		points: [
+			"Developed and implemented solutions to integrate various software and hardware components, ensuring seamless communication and functionality across systems.",
+			"Collaborated with cross-functional teams to understand system requirements and deliver high-performance integration strategies.",
+			"Continuously optimized system performance, proposing improvements to enhance scalability and reliability."
 		],
 	},
 ];
