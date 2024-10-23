@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./desktop_pc/scene.gltf', true, (error) => {
+  const computer = useGLTF('./fluxs_pit_stop.glb', true, (error) => {
     console.error('An error occurred loading the 3D model:', error);
   });
   return (

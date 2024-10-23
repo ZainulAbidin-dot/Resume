@@ -13,10 +13,10 @@ function Loader() {
 
 export default function Robot() {
   return (
-    <Canvas gl={{ antialias: true }} dpr={[1, 1.5]} className="relative h-svh overflow-hidden">
+    <Canvas gl={{ antialias: true }} dpr={[1, 1.5]} className="top-[150px] relative h-svh w-[60vw]">
       <directionalLight position={[-5, -5, 5]} intensity={4} />
       <Suspense fallback={<Loader />}>
-        <ScrollControls damping={0.5} pages={3} className="overflow-hidden">      
+        <ScrollControls damping={0.5} pages={3}>      
           <RobotModel />
         </ScrollControls>
       </Suspense>
