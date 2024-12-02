@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import { ComputersCanvas, RobotCanvas } from './canvas'
+import { ComputersCanvas, ParticleRing } from './canvas'
 import { styles } from '../styles'
 
 const Hero = () => {
@@ -14,15 +14,17 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi I'm <span className='text-[#915eff]'>Zain ul Abidin</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a Software Engineer  <br className='sm:block hidden' /> 
-          </p>
+          </p> */}
         </div>
       </div>
-      {/* <RobotCanvas /> */}
-      {/* <ComputersCanvas /> */}
+      {/* <ParticleRing /> */}
+      <div className='top-[200px] left-[850px] absolute'>
+        <ComputersCanvas />
+      </div>
 
-      <div className='top-[-80px] absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center '>
+      <div className='top-[700px] absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center '>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div animate={{
