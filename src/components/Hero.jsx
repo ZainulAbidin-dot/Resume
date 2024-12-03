@@ -14,13 +14,13 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi I'm <span className='text-[#915eff]'>Zain ul Abidin</span></h1>
-          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a Software Engineer  <br className='sm:block hidden' /> 
-          </p> */}
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          Tech Enthusiast Building Solutions  <br className='sm:block hidden' /> That Matter
+          </p>
         </div>
       </div>
       {/* <ParticleRing /> */}
-      <div className='top-[200px] left-[850px] absolute'>
+      <div className='absolute top-[350px] left-[50%] sm:top-[20%] sm:left-[60%] transform -translate-x-1/2'>
         <ComputersCanvas />
       </div>
 
