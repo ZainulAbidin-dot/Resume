@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </div>
       {/* <ParticleRing /> */}
-      <div className='absolute top-[350px] left-[50%] sm:top-[20%] sm:left-[60%] transform -translate-x-1/2'>
+      <div className='absolute top-[350px] left-[50%] sm:top-[27%] sm:left-[70%] transform -translate-x-1/2'>
         <ComputersCanvas />
       </div>
 
