@@ -155,7 +155,7 @@ const experiences = [
 		],
 	},
 	{
-		title: "Full-Stack Developer",
+		title: "Mid-Level Backend Developer",
 		company_name: "Pumpjack Dataworks | Tixsee Labs",
 		icon: pumpjack,
 		iconBg: "#E6DEDD",
@@ -166,7 +166,7 @@ const experiences = [
 		],
 	},
 	{
-		title: "Backend Developer",
+		title: "Junior Backend Developer",
 		company_name: "WeUno",
 		icon: weuno,
 		iconBg: "#E6DEDD",

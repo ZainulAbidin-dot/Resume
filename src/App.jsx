@@ -10,6 +10,7 @@ import {
 	Works,
 	StarsCanvas,
 } from "./components";
+import Certification from "./components/Certification";
 const App = () => {
 	return (
 		<BrowserRouter>
@@ -21,6 +22,7 @@ const App = () => {
 				<About />
 				<Experience />
 				<Tech />
+				<Certification />
 				<Works />
 				{/* <Feedbacks /> */}
 				<div className="relative z-0">
